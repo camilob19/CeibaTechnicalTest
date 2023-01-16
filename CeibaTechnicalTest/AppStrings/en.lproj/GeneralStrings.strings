@@ -1,0 +1,13 @@
+/* 
+  GeneralStrings.strings
+  CeibaTechnicalTest
+
+  Created by Cristian on 15/01/23.
+  
+*/
+
+// HomeView
+"empty_list" = "List is empty";
+"button_text" = "VER PUBLICACIONES";
+"navigation_title" = "LISTA DE CONTACTOS";
+
