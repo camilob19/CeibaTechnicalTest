@@ -9,7 +9,9 @@ import Foundation
 import SwiftUI
 
 struct ImageAsset {
-    struct Images {
+    
         static let splashLogo = Image("logoCeiba")
-    }
+        static let phoneImage = Image(systemName: "phone.fill")
+        static let emailImage = Image(systemName:"envelope.fill")
+        static let backButtonImage = Image(systemName: "chevron.backward")
 }

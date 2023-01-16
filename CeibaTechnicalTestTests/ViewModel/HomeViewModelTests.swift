@@ -34,6 +34,7 @@ final class HomeViewModelTests: XCTestCase {
     
     func test_filterText() {
         let SUT = HomeViewModel()
+        
         SUT.state.userList = [UserModel.fixture]
         SUT.state.filteredUserList = [UserModel.fixture]
         SUT.state.textToFilter = "a"
@@ -46,8 +47,17 @@ final class HomeViewModelTests: XCTestCase {
         SUT.state.filteredUserList = [UserModel.fixture]
         SUT.state.textToFilter = "DEM"
         
+        SUT.search()
+        
         XCTAssertEqual(SUT.state.filteredUserList, [UserModel.fixture])
         XCTAssertEqual(SUT.state.userList, [UserModel.fixture])
+        
+        SUT.state.filteredUserList = [UserModel.fixture]
+        SUT.state.textToFilter = ""
+        
+        SUT.search()
+        
+        XCTAssertEqual(SUT.state.filteredUserList.isEmpty, false)
     }
 
 }

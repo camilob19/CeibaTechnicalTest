@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct LoadingBar: View {
+    
     var body: some View {
         ZStack {
             VStack {

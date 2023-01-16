@@ -46,6 +46,7 @@
 		4032D75D2974DA97003FCB82 /* ImageAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4032D75C2974DA97003FCB82 /* ImageAsset.swift */; };
 		4032D75F2974DC05003FCB82 /* LoadingBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4032D75E2974DC05003FCB82 /* LoadingBarView.swift */; };
 		4032D7612974DE1C003FCB82 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4032D7602974DE1C003FCB82 /* Color.swift */; };
+		4071FF602975D01500E1033B /* UserPostsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4071FF5F2975D01500E1033B /* UserPostsViewModelTests.swift */; };
 		40CD142F297592A300E101DA /* UserListUseCaseFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CD142E297592A300E101DA /* UserListUseCaseFake.swift */; };
 		40CD1431297593D300E101DA /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CD1430297593D300E101DA /* HomeViewModelTests.swift */; };
 		40CD14332975A5F500E101DA /* UserPostsUseCaseFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CD14322975A5F500E101DA /* UserPostsUseCaseFake.swift */; };
@@ -110,6 +111,7 @@
 		4032D75C2974DA97003FCB82 /* ImageAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAsset.swift; sourceTree = "<group>"; };
 		4032D75E2974DC05003FCB82 /* LoadingBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingBarView.swift; sourceTree = "<group>"; };
 		4032D7602974DE1C003FCB82 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		4071FF5F2975D01500E1033B /* UserPostsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPostsViewModelTests.swift; sourceTree = "<group>"; };
 		40CD142E297592A300E101DA /* UserListUseCaseFake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListUseCaseFake.swift; sourceTree = "<group>"; };
 		40CD1430297593D300E101DA /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
 		40CD14322975A5F500E101DA /* UserPostsUseCaseFake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPostsUseCaseFake.swift; sourceTree = "<group>"; };
@@ -363,6 +365,7 @@
 				40CD142E297592A300E101DA /* UserListUseCaseFake.swift */,
 				40CD14322975A5F500E101DA /* UserPostsUseCaseFake.swift */,
 				40CD1430297593D300E101DA /* HomeViewModelTests.swift */,
+				4071FF5F2975D01500E1033B /* UserPostsViewModelTests.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -547,6 +550,7 @@
 				4032D72C29745485003FCB82 /* UserInformationAPITests.swift in Sources */,
 				4032D6F329731F9A003FCB82 /* UserAPIRouterTests.swift in Sources */,
 				40CD142F297592A300E101DA /* UserListUseCaseFake.swift in Sources */,
+				4071FF602975D01500E1033B /* UserPostsViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -34,7 +34,7 @@ struct LogoSplash: View {
     var body: some View {
         ZStack {
             VStack {
-                ImageAsset.Images.splashLogo
+                ImageAsset.splashLogo
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 200)

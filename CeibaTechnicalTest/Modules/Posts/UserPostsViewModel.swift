@@ -27,18 +27,16 @@ class UserPostsViewModel: ObservableObject {
     }
     
     func onAppear() async {
-        Task {
-            guard let userPosts = try? await useCase.execute(by: state.currentId).asyncMain() else {
-                await MainActor.run {
-                    self.state.loading = false
-                }
-                return
-            }
-            
+        guard let userPosts = try? await useCase.execute(by: state.currentId).asyncMain() else {
             await MainActor.run {
-                self.state.userPostsInfo = userPosts
                 self.state.loading = false
             }
+            return
+        }
+        
+        await MainActor.run {
+            self.state.userPostsInfo = userPosts
+            self.state.loading = false
         }
     }
 }

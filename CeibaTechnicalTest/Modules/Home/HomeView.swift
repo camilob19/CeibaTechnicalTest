@@ -27,11 +27,12 @@ struct HomeView: View {
                             CardInformationView(name: user.name,
                                                 number: user.phone,
                                                 mail: user.email,
-                                                iconOne: Image(systemName: "phone.fill"),
-                                                iconTwo: Image(systemName:"envelope.fill"),
+                                                iconOne: ImageAsset.phoneImage,
+                                                iconTwo: ImageAsset.emailImage,
                                                 buttonName: Localized.buttonText)
                         }
-                    }.padding(.vertical, 4)
+                    }
+                    .padding(.vertical, 4)
                 }
             }
             .refreshable {

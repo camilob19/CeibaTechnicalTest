@@ -22,7 +22,7 @@ struct UserPostsView: View {
                     Button {
                         mode.wrappedValue.dismiss()
                     } label: {
-                        Image(systemName: "chevron.backward")
+                        ImageAsset.backButtonImage
                             .fontWeight(.semibold)
                             .foregroundColor(.sherpaBlue)
                             .font(.system(size: 20))
